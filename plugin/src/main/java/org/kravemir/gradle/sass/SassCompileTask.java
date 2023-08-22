@@ -1,4 +1,4 @@
-package org.kravemir.gradle.sass;
+package org.asaelitz.gradle.sass;
 
 import org.gradle.api.GradleException;
 import org.gradle.api.plugins.JavaPluginConvention;

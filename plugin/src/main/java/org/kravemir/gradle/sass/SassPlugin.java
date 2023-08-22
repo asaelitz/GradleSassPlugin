@@ -1,4 +1,4 @@
-package org.kravemir.gradle.sass;
+package org.asaelitz.gradle.sass;
 
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;

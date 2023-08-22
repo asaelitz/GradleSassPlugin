@@ -49,7 +49,7 @@ ext.fillPom = { org.gradle.api.publish.maven.MavenPom pom, String name, String d
 
             appendNode('name', name)
             appendNode('description', description)
-            appendNode('url', 'https://github.com/kravemir/GradleSassPlugin/')
+            appendNode('url', 'https://github.com/asaelitz/GradleSassPlugin/')
 
             appendNode('licenses').with {
                 appendNode('license').with {
@@ -67,9 +67,9 @@ ext.fillPom = { org.gradle.api.publish.maven.MavenPom pom, String name, String d
             }
 
             appendNode('scm').with {
-                appendNode('connection', 'scm:git:git://github.com/kravemir/GradleSassPlugin.git')
-                appendNode('developerConnection', 'scm:git:ssh://github.com:kravemir/GradleSassPlugin.git')
-                appendNode('url', 'http://github.com/kravemir/GradleSassPlugin/tree/master')
+                appendNode('connection', 'scm:git:git://github.com/asaelitz/GradleSassPlugin.git')
+                appendNode('developerConnection', 'scm:git:ssh://github.com:asaelitz/GradleSassPlugin.git')
+                appendNode('url', 'http://github.com/asaelitz/GradleSassPlugin/tree/master')
             }
         }
     }

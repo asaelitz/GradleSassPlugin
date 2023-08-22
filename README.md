@@ -1,8 +1,8 @@
 GradleSassPlugin
 ================
 
-[![Build Status](https://travis-ci.org/kravemir/GradleSassPlugin.svg?branch=master)](https://travis-ci.org/kravemir/GradleSassPlugin)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a52c030a137944948522ef868ef9548f)](https://www.codacy.com/app/kravec.miroslav/GradleSassPlugin?utm_source=github.com&utm_medium=referral&utm_content=kravemir/GradleSassPlugin&utm_campaign=badger)
+[![Build Status](https://travis-ci.org/asaelitz/GradleSassPlugin.svg?branch=master)](https://travis-ci.org/asaelitz/GradleSassPlugin)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a52c030a137944948522ef868ef9548f)](https://www.codacy.com/app/kravec.miroslav/GradleSassPlugin?utm_source=github.com&utm_medium=referral&utm_content=asaelitz/GradleSassPlugin&utm_campaign=badger)
 
 Plugin for SASS compilation. It uses [vaadin-sass-compiler](https://github.com/vaadin/sass-compiler).
 
@@ -42,16 +42,16 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.org.kravemir.gradle.sass:GradleSassPlugin:1.2.2"
+    classpath "gradle.plugin.org.asaelitz.gradle.sass:GradleSassPlugin:1.2.2"
   }
 }
 
-apply plugin: "org.kravemir.gradle.sass"
+apply plugin: "org.asaelitz.gradle.sass"
 ```
 Or with new the plugin mechanism:
 ```gradle
 plugins {
-  id "org.kravemir.gradle.sass" version "1.2.2"
+  id "org.asaelitz.gradle.sass" version "1.2.2"
 }
 ```
 

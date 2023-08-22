@@ -14,14 +14,14 @@ apply plugin: 'org.kravemir.gradle.sass'
 
 sass {
     dev {
-        srcDir = file("$projectDir/src/main/sass")
-        outDir = file("$buildDir/dev-css")
+        srcDir = layout.projectDirectory.file("src/main/sass")
+        outDir = layout.buildDirectory.file("dev-css")
 
         exclude = "**/_*.scss"
     }
     release {
-        srcDir = file("$projectDir/src/main/sass")
-        outDir = file("$buildDir/release-css")
+        srcDir = layout.projectDirectory.file("$projectDir/src/main/sass")
+        outDir = layout.buildDirectory.file("$buildDir/release-css")
 
         exclude = "**/_*.scss"
         minify = true

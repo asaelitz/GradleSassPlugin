@@ -1,4 +1,4 @@
-package org.kravemir.gradle.sass.tests;
+package org.asaelitz.gradle.sass.tests;
 
 
 import org.gradle.testkit.runner.BuildResult;
@@ -35,7 +35,7 @@ public class IncrementalTasksTest {
     @Before
     public void setup() throws IOException {
         File buildFile = testProjectDir.newFile("build.gradle");
-        writeFile(buildFile, "plugins {\n id 'org.kravemir.gradle.sass'\n }\nsass{\nmain{}}");
+        writeFile(buildFile, "plugins {\n id 'org.asaelitz.gradle.sass'\n }\nsass{\nmain{}}");
 
         Path mainSassPath = Paths.get(testProjectDir.getRoot().getPath(),"src","main","sass");
         Files.createDirectories(mainSassPath);

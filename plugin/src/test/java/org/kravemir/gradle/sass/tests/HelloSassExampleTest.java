@@ -1,4 +1,4 @@
-package org.kravemir.gradle.sass.tests;
+package org.asaelitz.gradle.sass.tests;
 
 import org.apache.commons.io.FileUtils;
 import org.gradle.testkit.runner.BuildResult;
@@ -36,8 +36,8 @@ public class HelloSassExampleTest {
     private void removePluginVersion(File file) throws IOException {
         sed(
                 file,
-                Pattern.compile("id 'org\\.kravemir\\.gradle\\.sass\\' version .*"),
-                "id 'org.kravemir.gradle.sass'"
+                Pattern.compile("id 'org\\.asaelitz\\.gradle\\.sass\\' version .*"),
+                "id 'org.asaelitz.gradle.sass'"
         );
 
     }

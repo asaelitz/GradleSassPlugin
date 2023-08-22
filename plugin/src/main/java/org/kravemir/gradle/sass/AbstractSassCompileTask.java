@@ -1,4 +1,4 @@
-package org.kravemir.gradle.sass;
+package org.asaelitz.gradle.sass;
 
 import com.vaadin.sass.internal.ScssStylesheet;
 import com.vaadin.sass.internal.resolver.FilesystemResolver;
