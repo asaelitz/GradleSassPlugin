@@ -6,12 +6,12 @@ buildscript {
         }
     }
     dependencies {
-        classpath "gradle.plugin.org.kravemir.gradle.sass:GradleSassPlugin:1.2.2"
+        classpath "gradle.plugin.org.aitzhaki.gradle.sass:GradleSassPlugin:1.2.4"
     }
 }
 
 apply plugin: 'java'
-apply plugin: 'org.kravemir.gradle.sass'
+apply plugin: 'org.aitzhaki.gradle.sass'
 
 sass{
     main {
